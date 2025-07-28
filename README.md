@@ -36,7 +36,7 @@ I'm a passionate Computer Science & Engineering student (2026) with interests in
 - [LinkedIn](https://www.linkedin.com/in/naga-sahithya-anagha-parisha-018ba1280)
 
 ## 🛠 Built With
-This portfolio is built using the [developerFolio](https://github.com/saadpasta/developerFolio) open-source template by [Saad Pasta](https://github.com/saadpasta).
+This portfolio is based on the open-source DeveloperFolio template by [Saad Pasta](https://github.com/saadpasta/developerFolio), customized by me.
 
 ---
 
