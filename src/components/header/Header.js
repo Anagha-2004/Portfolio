@@ -5,23 +5,19 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  
   skillsSection,
   openSource,
-  
-  
   achievementSection,
   resumeSection
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  
+
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  
- 
+
   const viewResume = resumeSection.display;
 
   return (
@@ -46,7 +42,7 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          
+
           {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
@@ -57,8 +53,7 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          
-          
+
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>
